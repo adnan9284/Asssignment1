@@ -170,24 +170,24 @@ nav .logo {
   justify-content: center;
 }
 
-.Designers {
+.designers {
   padding: 24px;
   border-radius: 14px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: #ffff;
 }
 
-.Designers h4 {
+.designers h4 {
   margin-bottom: 8px;
   font-size: 25px;
   color: #1e1e1e;
 }
 
-.Designers p {
+.designers p {
   color: #8987a1;
 }
 
-.Designers figure {
+.designers figure {
   margin-bottom: 15px;
 }
 
@@ -294,7 +294,6 @@ textarea {
   gap: 30px;
   margin-top: 20px;
 }
-
 .footer-content li a {
   color: #8987a1;
 }
