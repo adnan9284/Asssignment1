@@ -1,94 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-</head>
-<body>
- <!-- Navbar + Banner Section -->
-  <section class="hero-section">
-    <div class="navbar container">
-      <h1 class="logo">LOGO</h1>
-      <button class="btn">Sign Up</button>
-    </div>
 
-    <div class="banner-content">
-      <h2>Cool Dark UI Template for <br> Webflow Agencies!</h2>
-      <button class="btn">Stay Focused</button>
-    </div>
-  </section>
-  <!-- Action Section -->
-<section class="action container">
-  <div class="action-text">
-    <h2>See It in Action</h2>
-    <p>Explore the live preview and imagine your brand in this bold new look.</p>
-    <button class="btn">Launch Live Preview</button>
-  </div>
-  <div class="action-image">
-    <img src="Assets/wc-mini.png" alt="Webflow Conf Preview" />
-  </div>
-</section>
-    <section class="productive-section">
-        <div class="container">
-            <h2>Joined Thousands of Productive Users</h2>
-            <div class="stats-container">
-                <div class="stat-item">
-                    <div class="stat-number">50K</div>
-                    <div class="stat-label">Active Users</div>
+<body>
+
+    <section class="navbar-section">
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="btn"><button class="main-btn">Sign Up</button></div>
+        </nav>
+        <div class="hero-content">
+            <h1>Cool Dark UI Template for Webflow Agencies!</h1>
+            <button class="main-btn">Stay Focused</button>
+        </div>
+    </section>
+
+    <section class="action-section">
+        <div class="See-Action-content">
+            <h2>See It in Action</h2>
+            <p>
+                Explore the live preview and imagine your <br />
+                brand in this bold new look.
+            </p>
+            <button class="main-btn">Launch Live Preview</button>
+        </div>
+        <div class="See-Action-Banner">
+            <figure><img src="./Assets/wc-mini.png" alt="" /></figure>
+        </div>
+    </section>
+
+    <section class="productive-user-section">
+        <div class="Joined">
+            <h4>Joined Thousands of Productive Users</h4>
+            <div class="productive-user">
+                <div class="active-user">
+                    <h3>2M+</h3>
+                    <p>Focus Sessions</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number plus">2M</div>
-                    <div class="stat-label">Focus Sessions</div>
+                <div class="Focused-session">
+                    <h3>2M+</h3>
+                    <p>Focus Sessions</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number percent">95</div>
-                    <div class="stat-label">Satisfaction Rate</div>
+                <div class="Satisfaction-Rate">
+                    <h3>95%</h3>
+                    <p>Satisfaction Rate</p>
                 </div>
             </div>
         </div>
     </section>
-     <div class="container">
-        <section class="contact-section">
-            <div class="contact-content">
-                <h2>Let's Get in Touch</h2>
-            </div>
-            <div class="contact-form">
-                <form>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="example@email.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="full name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" placeholder="write your message..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn submit-btn">Get in Touch</button>
-                </form>
-            </div>
-        </section>
-    </div>
-     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-logo">LOGO</div>
-            <p class="footer-subtitle">
-                Ready to elevate your online presence? Contact us today to discuss<br>
+
+    <section class="get-in-touch-section">
+        <div class="contact-content">
+            <h3>
+                Let’s Get in <br />
+                Touch
+            </h3>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div>
+                    <label for="Email" class="email"><span class="email">Email</span></label>
+                    <input type="Email" placeholder="example@email.com" required />
+                </div>
+
+                <div>
+                    <label for="Name" class="name"><span class="name">Name</span></label>
+                    <input type="Name" placeholder="full name" />
+                </div>
+                <div>
+                    <label for="Message"><span class="Message">Message</span></label>
+                    <textarea name="Message" id="" placeholder="write your message...."></textarea>
+                    <button class="main-btn form-btn">Get in Touch</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-content">
+            <h2>LOGO</h2>
+            <p>
+                Ready to elevate your online presence? Contact us today to discuss
+                <br />
                 your project and discover how we can bring your vision to life.
             </p>
-            <div class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">How it Works</a>
-                <a href="#">Services</a>
+            <div class="footer-nav">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">How it Works</a>
+                    </li>
+                    <li>
+                        <a href="/">Services</a>
+                    </li>
+                </ul>
             </div>
-            <p class="footer-copyright">© 2023 Your Company. All rights reserved.</p>
         </div>
-    </footer>
+    </section>
+
 </body>
+
 </html>
